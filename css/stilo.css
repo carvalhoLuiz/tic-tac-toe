@@ -1,0 +1,59 @@
+body{
+    margin:auto;
+}
+
+div#game{
+    width:100%;
+    height:100vh;
+    background-color:black;
+ 
+}
+
+h1{
+    color:white;
+    font-weight:bold;
+    margin-top:0px;
+    margin-left:826px;
+
+}
+h2{
+    color:white;
+    font-weight:bold;
+    margin-top:0px;
+    margin-left:925px;
+
+}
+
+.casa{
+    
+    display:inline-block;
+    display:block;
+    background-color:blue;
+    height:100px;
+    width:100px;
+    border:0.5px solid white;
+    margin:0;
+}
+.linha1{
+    margin-top:-101px;
+}
+
+.linha2{
+    margin-top:-101px;
+}
+
+.linha3{
+    margin-top:-101px;
+}
+.col1{
+    margin-left:810px;
+}
+.col2{
+    margin-left:910px;
+    
+}
+
+.col3{
+    margin-left:1010px;
+
+}
