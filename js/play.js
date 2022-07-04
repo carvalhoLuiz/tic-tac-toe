@@ -32,7 +32,6 @@ var vitoria = () => {
     text = document.querySelector('h1#jogo');
 
     // LOGICA VITORIA X
-
     if(jgd[1]==1 && jgd[2]==1 && jgd[3]==1 || jgd[4]==1 && jgd[5]==1 && jgd[6]==1 || jgd[7]==1 && jgd[8]==1 && jgd[9]==1){
         text.innerHTML="VITORIA PLAYER 1"
         return 1;
